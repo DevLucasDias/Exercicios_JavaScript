@@ -1,0 +1,22 @@
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 3cm;
+  width: 100%;
+  background-color: navy;
+  color: white;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
