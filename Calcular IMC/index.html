@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos JavaScript</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <p></p>
+    <section class="container">
+        <p>
+        <table class="table" id="table">
+                <tr>
+                    <th>Variação</th>
+                    <th>Resultado</th>
+                </tr>
+                <tr>
+                    <td>MENOR QUE 18,5</td>
+                    <td>Abaixo do peso</td>
+                </tr>
+                <tr>
+                    <td>ENTRE 18,5 E 24,9</td>
+                    <td>Peso Ideal</td>
+                </tr>
+                <tr>
+                    <td>ENTRE 25,0 E 29,9</td>
+                    <td>Sobrepeso </td>
+                </tr>
+                <tr>
+                    <td>ENTRE 30,0 E 39,9</td>
+                    <td>Obesidade I</td>
+                </tr>
+                <tr>
+                    <td>MAIOR QUE 40,0</td>
+                    <td>Obesidade II</td>
+                </tr>
+        </table>
+        
+
+<br>
+        <form action="" method="post" id="formIMC">
+
+            <label for="peso">Peso em KG (Ex: 100)</label>
+            <input id="peso" name="peso" type="text">
+
+            <label for="altura">Altura em metros (Ex: 1.80)</label>
+            <input id="altura" type="text">
+
+            <input type="submit" value="Calcular">
+
+        </form>
+        <div><p id="resultado" name="resultado"></p></div>
+        <div><p id="imc" name="imc"></p></div>
+
+
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
